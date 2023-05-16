@@ -3,9 +3,9 @@ class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);//creating scanner object.
 
-        int RandomNumber = (int) (Math.random() * 10);//generating a number between 0 and 1000.
+        int RandomNumber = (int) (Math.random() * 1001);//generating a number between 0 and 1000.
 
-        System.out.println(RandomNumber);//printing the number.
+        System.out.println(RandomNumber);//printing the number to make testing easier.
 
         int attempts = 10;//the amount of attempts to guess the number.
 
